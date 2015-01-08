@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg:style xmlns:svg="http://www.w3.org/2000/svg" type="text/css">
+      .i        { display: none;  }
+      .i:target { display: block; }
+    </svg:style>
+    <svg:svg xmlns:svg="http://www.w3.org/2000/svg" 
+      width="60px" height="60px" viewBox="0 0 60 60"
+      class="i" id="circ" >
+        <circle cx="30" cy="30" r="20" fill="orange" />
+    </svg:svg>
+    <svg:svg xmlns:svg="http://www.w3.org/2000/svg" 
+       width="60px" height="60px" viewBox="0 0 60 60"
+       class="i" id="rect">
+        <rect x="10" y="10" width="40" height="40" fill="green" />
+    </svg:svg>
+</svg>
