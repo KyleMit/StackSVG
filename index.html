@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #one, #two {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+      }
+      #one { background: red;}
+      #two { background: yellow;}
+    </style>
+  </head>
+
+  <body>
+    <h1>SVG Stack!</h1>
+    
+    <ul>
+      <li><a href="#one">#one</a></li>
+      <li><a href="#two">#two</a></li>
+      <li><a href="stack.svg#circ">stack.svg#circ</a></li>
+      <li><a href="stack.svg#rect">stack.svg#rect</a></li>
+    </ul>    
+    
+    <h3>DIV</h3>
+    <div id="one">#one</div>
+    <div id="two">#two</div>
+    
+    <h3>SVG</h3>
+    <img src="stack.svg#circ" 
+         width="60" height="60" 
+         alt="SVG Stacked Image"  />
+         
+    <img src="stack.svg#rect" 
+         width="60" height="60" 
+         alt="SVG Stacked Image"  />
+         
+  </body>
+</html>
